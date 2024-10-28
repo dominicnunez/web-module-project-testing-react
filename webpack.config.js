@@ -50,6 +50,7 @@ const config = {
     compress: true,
     port: FRONTEND_PORT,
     client: { logging: 'none' },
+    open: false,
   },
   module: {
     rules: [
